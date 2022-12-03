@@ -1,0 +1,24 @@
+Image Tag:-
+open tag -> <img> 
+close tag -> </img>
+image should be always in jpg or jpeg.
+to increase width with width="100"
+to increase height with height="100"
+ex:-<img src="C:\Users\Hemanth\Downloads\21MH1A05C1.jpg" width="200" 				height="200" alt="Image not found">
+--------------------------------------------------------------------------------
+Anchor Tag:-
+to load a page after clicking the text you have given the link you gave the page will open
+ex:- <a href="https://thecodemind.io/app/login.php" target="new">Click here</a>
+
+Target atribute is to deside in which page it will open(new or self).
+--------------------------------------------------------------------------------
+Table Tag:-
+open tag   ->   <table>
+close tag  ->   </table>
+for row    ->   <tr>  </tr>
+for coloum ->   <td> </td>
+By default the bouder colour is white.
+ex:- <table border="1" bordercolor="Green" bgcolor="yellow">
+for border width  border="1"
+cellspacing for increasing the space in border.
+cellpading for increasing the cell space in it.
