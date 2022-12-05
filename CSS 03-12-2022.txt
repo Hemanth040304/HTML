@@ -1,0 +1,100 @@
+CSS(Cascading style sheets):-
+There 3 ways to apply css :-
+1. External css(writing styles in different file):-
+	-----------
+	sample.css:-
+	-----------
+	body{background-color:Green;color:yellow}
+			-property     -value
+
+
+	------------
+	sample.html:- 
+	------------
+	<html>
+		<head>
+			<link rel="stylesheet" href="sample.css">
+		</head>
+	<body>
+		<h1>Hi welcome to css</h1>
+	</body>
+	</html>
+	----------------------------------------------
+2. Internal css:-
+	<html>
+		<head>
+			<style>h1  n,{background-color:Green;color:yellow}
+		</head>
+	<body>
+		<h1>Hi welcome to css</h1>
+	</body>
+	</html>
+	-----------------------------------------------
+3. Inline css:-
+	<html>
+		<head>
+			
+		</head>
+	<body>
+		<h1 style:>Hi welcome to css</h1>
+	</body>
+	</html>
+-----------------------------------------------------------------------
+Selecters:-
+1.Tag selector
+	ex:-p{......}
+		h1{......}
+		body{......}
+
+	<html>
+	<head>
+	<style>
+		(h1 or #head){color:Red}
+		h2{color:Blue}
+	</style>
+	</head>
+	<body>
+		<h1></h1> or <h1 id="head"></h1>
+		<h1>Hi</h1> 
+		<h2>Welcome</h2>
+	</body>
+
+2.Id selector:-
+
+3.Universal selector:-
+	<html>
+	<head>
+	<style>
+		*{color:Red}
+		h2{color:Blue}
+	</style>
+	</head>
+	<body>
+		<h1>Hi</h1> 
+		<h2>Welcome</h2>
+	</body>
+
+4.Groupping selector:-
+	<html>
+	<head>
+	<style>
+		h1,h2{color:Red}
+	</style>
+	</head>
+	<body>
+		<h1>Hi</h1> 
+		<h2>Welcome</h2>
+	</body>
+--------------------------------------------------------------------
+CSS colours:-
+1. h1{background-color:Green}
+
+2. RGB function:- 
+		background-color:RGB(125,255,25)
+3. RGB with hash:- 
+		RGB(125,255,25)
+4. Hexa Decimal:- 
+		color:#000000
+               R G B
+5. HSL function:- (h-basic colours,s-saturation,l-light) 
+		HSL(225,125,25)
