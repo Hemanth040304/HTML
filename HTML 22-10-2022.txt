@@ -1,0 +1,52 @@
+					TEXT FORMATING TAGS
+--------------------------------------------------------------
+
+<b>         </b> --> for bold letters
+<i>         </i> --> for italic letters
+<big>       </big> --> for text size big
+<u>         </u>  --> for underlines
+<small>     </small> --> for small text size
+<strike>    </strike> --> for stricking the text
+
+
+for sub text <sub> start tag </sub> ned tag
+for super text <sup> start tag </sup> end tag
+---------------------------------------------------------------
+Marquec:- it is a paid tag <marquec> </marquec>
+1) Direction
+	<marquec direction = "Right">ACOE</marquec>
+
+2) width
+	<marquec width = "50%">ACOE</marquec>
+
+3) scrollamount
+	<marquec scrollamount = "60">ACOE</marquec>
+
+---------------------------------------------------------------
+
+for in list manner we will use <li> </li> tag
+<body>
+<li>ACOE</li>
+<li>ACET</li>
+<li>AEC</li>
+</body>
+
+like .ACOE
+	 .ACET
+	 .AEC
+
+There are two types of lists 
+1) Ordered List
+	<ol type="order">  </ol> (or)
+	<ol type="i">  </ol> (or)
+	<ol type="1">  </ol> (or)
+	<ol type="A">  </ol> ,etc.
+
+	**scearch for bullet names in google**
+
+	<ol start = "10">  </ol> ,etc.
+
+
+2) Unordered List
+	<ul type="unorder">  </ul>
+
